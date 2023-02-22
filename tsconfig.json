@@ -15,6 +15,11 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": [, "apple-redesign-sanity/sanity.config.js"
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "apple-redesign-sanity/sanity.cli.js"
+  ],
   "exclude": ["node_modules"]
 }
